@@ -44,7 +44,10 @@ function homePage() {
                             quos totam, laudantium dolorem.
                         </p>
                         <a
-                            href='#'
+                            href='pdf/Jhonny Rodriguez Resume.docx (1).pdf'
+                            download='resume.pdf'
+                            rel='noopener noreferrer'
+                            target='_blank'
                             className='font-semibold text-white md:mt-10 mt-5 pt-5 bg-blue-800 rounded-md w-60 h-16 text-lg hover:bg-black'>
                             See My Resume!
                         </a>

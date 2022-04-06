@@ -46,15 +46,6 @@ function Navbar() {
                                         Projects
                                     </Link>
                                     <Link
-                                        activeClass='Clients'
-                                        to='clients'
-                                        smooth={true}
-                                        offset={50}
-                                        duration={500}
-                                        className='cursor-pointer hover:text-blue-600 px-3 py-2 text-md'>
-                                        Clients
-                                    </Link>
-                                    <Link
                                         activeClass='Contact'
                                         to='contact'
                                         smooth={true}
@@ -66,9 +57,11 @@ function Navbar() {
                                 </div>
                             </div>
                             <div className='flex justify-center items-center flex-shrink-0'>
-                                <h1 className='font-semibold text-lg cursor-pointer hidden md:block'>
+                                <a
+                                    href='mailto:true.jhonnyr@gmail.com'
+                                    className='font-semibold text-lg cursor-pointer hidden md:block'>
                                     Say<span className='text-blue-600'>Hi</span>
-                                </h1>
+                                </a>
                             </div>
                         </div>
                         {/* completed the desktop view */}
@@ -162,35 +155,21 @@ function Navbar() {
                                     Projects
                                 </Link>
                                 <Link
-                                    href='/clients'
-                                    activeClass='clients'
-                                    to='clients'
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
-                                    className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
-                                    Clients
-                                </Link>
-                                <Link
                                     href='/contacts'
-                                    activeClass='contacts'
-                                    to='contacts'
+                                    activeClass='contact'
+                                    to='contact'
                                     smooth={true}
                                     offset={50}
                                     duration={500}
                                     className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
                                     Contacts
                                 </Link>
-                                <Link
-                                    href='/hi'
-                                    activeClass='hi'
-                                    to='hi'
-                                    smooth={true}
-                                    offset={50}
-                                    duration={500}
-                                    className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
-                                    Say<span className='text-black'>Hi</span>
-                                </Link>
+                                <div className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
+                                    <a href='mailto:true.jhonnyr@gmail.com'>
+                                        Say
+                                        <span className='text-black'>Hi</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     )}

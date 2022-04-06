@@ -7,7 +7,9 @@ function Footer() {
             <h1 className='text-xl text-blue-800'>
                 Created by{" "}
                 <a
-                    href='#'
+                    href='https://truejyro.com'
+                    target='_blank'
+                    rel='noreferrer'
                     className='cursor-pointer font-semibold text-blue-800 hover:text-black'>
                     TrueJyro
                 </a>
