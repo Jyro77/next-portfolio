@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import HomePage from "./homePage";
 import Services from "./services";
 import Work from "./works";
+import Clients from "./clients";
+import Contact from "./contact";
 
 export default function Home() {
     return (
@@ -19,6 +22,9 @@ export default function Home() {
             <HomePage />
             <Services />
             <Work />
+            <Clients />
+            <Contact />
+            <Footer />
         </div>
     );
 }

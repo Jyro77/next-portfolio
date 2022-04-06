@@ -12,8 +12,8 @@ function Navbar() {
                         <div className='flex items-center sm:mx-10 md:mx-20 justify-between w-full'>
                             <div className='flex justify-center items-center flex-shrink-0 ml-10 sm:ml-0'>
                                 <h1 className='font-bold text-xl cursor-pointer'>
-                                    Stream
-                                    <span className='text-blue-600'>line</span>
+                                    True
+                                    <span className='text-blue-600'>Jyro</span>
                                 </h1>
                             </div>
                             <div className='hidden md:block'>

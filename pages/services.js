@@ -1,8 +1,8 @@
 import { Element } from "react-scroll";
-import { GiCardboardBox } from "react-icons/gi";
-import { HiColorSwatch } from "react-icons/hi";
-import { MdDeveloperBoard } from "react-icons/md";
-import { AiOutlineBlock } from "react-icons/ai";
+import { FaReact } from "react-icons/fa";
+import { GrNode } from "react-icons/gr";
+import { MdOutlineTravelExplore } from "react-icons/md";
+import { RiCustomerService2Fill } from "react-icons/ri";
 
 function services() {
     return (
@@ -15,9 +15,9 @@ function services() {
                 <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
                     <div className='flex flex-col justify-center items-center'>
                         <div className='flex justify-center items-center cursor-pointer'>
-                            <GiCardboardBox className='w-10 h-10 bg-yellow-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
+                            <FaReact className='w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
-                                Strategy & Direction
+                                Front-end
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
@@ -30,9 +30,9 @@ function services() {
                     </div>
                     <div className='flex flex-col justify-center items-center'>
                         <div className='flex justify-center items-center cursor-pointer'>
-                            <HiColorSwatch className='w-10 h-10 bg-red-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
+                            <GrNode className='w-10 h-10 bg-green-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
-                                Branding & Logo
+                                Back-end
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
@@ -47,9 +47,9 @@ function services() {
                 <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
                     <div className='flex flex-col justify-center items-center'>
                         <div className='flex justify-center items-center cursor-pointer'>
-                            <AiOutlineBlock className='w-10 h-10 bg-green-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
+                            <MdOutlineTravelExplore className='w-10 h-10 bg-red-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
-                                Motion & Animation
+                                Community Manager
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
@@ -62,9 +62,9 @@ function services() {
                     </div>
                     <div className='flex flex-col justify-center items-center'>
                         <div className='flex justify-center items-center cursor-pointer'>
-                            <MdDeveloperBoard className='w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
+                            <RiCustomerService2Fill className='w-10 h-10 bg-yellow-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
-                                Desing & Development
+                                Customer Services
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>

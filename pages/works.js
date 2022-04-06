@@ -12,7 +12,7 @@ function works() {
         <Element id='work' name='work'>
             <div className='w-full my-20 h-auto flex flex-col justify-center items-center'>
                 <p className='text-sm uppercase text-gray-400'>Portfolio</p>
-                <h1 className='text-blue-800 text-6xl font-bold text-center0'>
+                <h1 className='text-blue-800 text-6xl font-bold text-center'>
                     Creative Works
                 </h1>
                 <div className='md:flex sm:flex-col md:flex-row justify-center items-center md:gap-10 sm:pb-10 mt-10'>
