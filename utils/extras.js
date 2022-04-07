@@ -32,4 +32,7 @@
 /* 
 import Clients from "./clients";
 <Clients />
+
+import Contact from "./contact";
+<Contact />
 */
