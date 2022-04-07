@@ -1,11 +1,5 @@
 import { Element } from "react-scroll";
 import Image from "next/image";
-import One from "../public/img/1.png";
-import Two from "../public/img/2.png";
-import Three from "../public/img/3.png";
-import Four from "../public/img/4.png";
-import Five from "../public/img/5.png";
-import Six from "../public/img/6.png";
 
 function works() {
     return (
@@ -18,7 +12,7 @@ function works() {
                 <div className='md:flex sm:flex-col md:flex-row justify-center items-center md:gap-10 sm:pb-10 mt-10'>
                     <div className='rounded w-80 h-60 shadow-xl relative'>
                         <Image
-                            src={One}
+                            src='/img/1.png'
                             alt='One'
                             layout='fill'
                             objectFit='cover'
@@ -27,7 +21,7 @@ function works() {
                     </div>
                     <div className='rounded w-80 h-60 shadow-xl relative'>
                         <Image
-                            src={Two}
+                            src='/img/2.png'
                             alt='Second'
                             layout='fill'
                             objectFit='cover'
@@ -36,7 +30,7 @@ function works() {
                     </div>
                     <div className='rounded w-80 h-60 shadow-xl relative'>
                         <Image
-                            src={Three}
+                            src='/img/3.png'
                             alt='Thrith'
                             layout='fill'
                             objectFit='cover'
@@ -47,7 +41,7 @@ function works() {
                 <div className='md:flex sm:flex-col md:flex-row justify-center items-center md:gap-10 sm:pb-10 mt-10'>
                     <div className='rounded w-80 h-60 shadow-xl relative'>
                         <Image
-                            src={Four}
+                            src='/img/4.png'
                             alt='Four'
                             layout='fill'
                             objectFit='cover'
@@ -56,7 +50,7 @@ function works() {
                     </div>
                     <div className='rounded w-80 h-60 shadow-xl relative'>
                         <Image
-                            src={Five}
+                            src='/img/5.png'
                             alt='Five'
                             layout='fill'
                             objectFit='cover'
@@ -65,7 +59,7 @@ function works() {
                     </div>
                     <div className='rounded w-80 h-60 shadow-xl relative'>
                         <Image
-                            src={Six}
+                            src='/img/6.png'
                             alt='Six'
                             layout='fill'
                             objectFit='cover'
