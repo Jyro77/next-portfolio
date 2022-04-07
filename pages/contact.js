@@ -4,7 +4,11 @@ function contact() {
     return (
         <Element id='contact' name='contact'>
             <div>
-                <form name='contact-me' netlify>
+                <form
+                    name='contact-me'
+                    method='post'
+                    netlify
+                    data-netlify='true'>
                     <div className='w-full my-20 h-auto flex flex-col justify-center items-center'>
                         <p className='text-sm uppercase text-gray-400'>
                             Contact
