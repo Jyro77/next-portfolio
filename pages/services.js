@@ -12,7 +12,7 @@ function services() {
                 <h1 className='text-blue-800 text-6xl font-bold text-center'>
                     My Expertise
                 </h1>
-                <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
+                <div className='flex justify-items-start items-center mx-40 gap-10 mt-20 content-start'>
                     <div className='flex flex-col justify-center items-center'>
                         <div className='flex justify-center items-center cursor-pointer'>
                             <FaReact className='w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
@@ -21,11 +21,18 @@ function services() {
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Similique velit eos corporis doloremque saepe
-                            dicta alias ducimus unde consectetur facere aperiam
-                            modi natus rerum officiis, quod tempore obcaecati
-                            quasi laboriosam.
+                            My greatest current strength is in this area. You
+                            can see in my portfolio some of the work I have
+                            done. For this I use various technologies of which
+                            are: {`"`}Front vanilla (HTML5, CSS3 and JS), CMS
+                            (Wordpress, Wix, etc.), React, Tailwindcss,
+                            Boostrap, Bulma, NextJS, among others{`"`}.
+                            <span className='text-white md:hidden block'>
+                                I am interested in adding to my stack the
+                                languages {`"`}TypeScript, Python, Go, among
+                                others
+                                {`"`}
+                            </span>
                         </p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
@@ -36,11 +43,21 @@ function services() {
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Similique velit eos corporis doloremque saepe
-                            dicta alias ducimus unde consectetur facere aperiam
-                            modi natus rerum officiis, quod tempore obcaecati
-                            quasi laboriosam.
+                            I have done several works in Back-end, among them
+                            fixes and optimizations in applications and
+                            authentication. SQL and NoSQL database management. I
+                            have also worked with REST API and GraphQL. Ranked
+                            5% out of 1.2M in the JS test on LinkedIn (
+                            <a
+                                href='https://bit.ly/3LPm6kc'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='cursor-pointer underline text-blue-500 text-sm'>
+                                click
+                            </a>
+                            ). I am interested in adding to my stack the
+                            languages {`"`}TypeScript, Python, Go, among others
+                            {`"`}.
                         </p>
                     </div>
                 </div>
@@ -53,11 +70,10 @@ function services() {
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Similique velit eos corporis doloremque saepe
-                            dicta alias ducimus unde consectetur facere aperiam
-                            modi natus rerum officiis, quod tempore obcaecati
-                            quasi laboriosam.
+                            Social media management, consulting, marketing and
+                            other services such as Community Manager to enhance
+                            the growth and sales of your business, looking for
+                            the most efficient way possible.
                         </p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
@@ -68,11 +84,11 @@ function services() {
                             </h2>
                         </div>
                         <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Similique velit eos corporis doloremque saepe
-                            dicta alias ducimus unde consectetur facere aperiam
-                            modi natus rerum officiis, quod tempore obcaecati
-                            quasi laboriosam.
+                            With more than 10 years of customer service,
+                            implementing my knowledge and experience in each
+                            place, since human treatment is one of the most
+                            valuable things required for the growth of any
+                            business.
                         </p>
                     </div>
                 </div>

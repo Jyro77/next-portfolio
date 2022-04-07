@@ -37,11 +37,13 @@ function homePage() {
                             intelligence at all times.
                         </p>
                         <p className='text-left font-normal mb-5 flex-wrap'>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Magni esse praesentium magnam necessitatibus
-                            cumque dolorum veniam officia iure velit alias
-                            exercitationem minima omnis libero nulla impedit
-                            quos totam, laudantium dolorem.
+                            Since 2019 I started using WordPress, Wix and Adobe
+                            Sparks, then in early 2020 I started the
+                            {`"`}Bootcamp Web Developer{`"`} which motivated me
+                            to continue learning different web technologies.
+                            {`"`}Bootcamp Web Developer{`"`} which motivated me
+                            to continue learning different technologies for the
+                            web.
                         </p>
                         <a
                             href='pdf/Jhonny Rodriguez Resume.docx (1).pdf'
