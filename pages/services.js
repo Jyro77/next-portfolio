@@ -14,7 +14,7 @@ function services() {
                 </h1>
                 <div className='flex justify-items-start items-center mx-40 gap-10 mt-20 content-start'>
                     <div className='flex flex-col justify-center items-center'>
-                        <div className='flex justify-center items-center cursor-pointer'>
+                        <div className='flex justify-center items-center cursor-pointer mb-3'>
                             <FaReact className='w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
                                 Front-end
@@ -27,16 +27,10 @@ function services() {
                             are: {`"`}Front vanilla (HTML5, CSS3 and JS), CMS
                             (Wordpress, Wix, etc.), React, Tailwindcss,
                             Boostrap, Bulma, NextJS, among others{`"`}.
-                            <span className='text-white md:hidden block'>
-                                I am interested in adding to my stack the
-                                languages {`"`}TypeScript, Python, Go, among
-                                others
-                                {`"`}
-                            </span>
                         </p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
-                        <div className='flex justify-center items-center cursor-pointer'>
+                        <div className='flex justify-center items-center cursor-pointer mb-3'>
                             <GrNode className='w-10 h-10 bg-green-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
                                 Back-end
@@ -63,7 +57,7 @@ function services() {
                 </div>
                 <div className='flex justify-items-start items-center mx-40 gap-10 mt-20'>
                     <div className='flex flex-col justify-center items-center'>
-                        <div className='flex justify-center items-center cursor-pointer'>
+                        <div className='flex justify-center items-center cursor-pointer mb-3'>
                             <MdOutlineTravelExplore className='w-10 h-10 bg-red-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
                                 Community Manager
@@ -77,7 +71,7 @@ function services() {
                         </p>
                     </div>
                     <div className='flex flex-col justify-center items-center'>
-                        <div className='flex justify-center items-center cursor-pointer'>
+                        <div className='flex justify-center items-center cursor-pointer mb-3'>
                             <RiCustomerService2Fill className='w-10 h-10 bg-yellow-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
                             <h2 className='text-xl text-blue-500 font-semibold'>
                                 Customer Services
