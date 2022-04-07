@@ -46,7 +46,7 @@ function homePage() {
                             web.
                         </p>
                         <a
-                            href='pdf/Jhonny Rodriguez Resume.docx (1).pdf'
+                            href='pdf/Jhonny Rodriguez Resume.pdf'
                             download='resume.pdf'
                             rel='noopener noreferrer'
                             target='_blank'
