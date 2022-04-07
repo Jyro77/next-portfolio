@@ -7,8 +7,8 @@ function contact() {
                 <form
                     name='contact-me'
                     method='post'
-                    netlify
-                    data-netlify='true'>
+                    data-netlify='true'
+                    data-netlify-honeypot='bot-field'>
                     <div className='w-full my-20 h-auto flex flex-col justify-center items-center'>
                         <p className='text-sm uppercase text-gray-400'>
                             Contact
@@ -17,6 +17,11 @@ function contact() {
                             Contact
                         </h1>
                         <div className='flex justify-center text-center md:w-1/2 w-full my-5'>
+                            <input
+                                type='hidden'
+                                name='form-name'
+                                value='contact'
+                            />
                             <input
                                 type='email'
                                 name='email-address'
